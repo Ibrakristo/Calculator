@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.display{
+    font-size: 32px;
+    width: 800px;
+    border: 1px solid;
+    border-radius: 15px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.operations{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    
+}
+.digits{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex:1;
+    max-width: 400px;
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap:wrap;
+    max-width: 100px;
+}
+button{
+    border-radius: 15px;
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    font-size: 24px;
+    background-color: #F9F6EEAA;
+}
+.operators button{
+    width: 40px;
+    height: 40px;
+}
